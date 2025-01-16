@@ -51,5 +51,5 @@ edit = Task(
     "each section should have 2 or 3 paragraphs.",
     agent=editor,
     tools=[tool],
-    output_file="{topic}.md",
+    # output_file="{topic}.md",
 )
